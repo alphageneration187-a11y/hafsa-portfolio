@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>My Personal Portfolio</title>
+
+    <style>
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #fff0f5;
+        font-family: Arial, sans-serif;
+    }
+
+    header {
+        background-color: #d63384;
+        color: white;
+        text-align: center;
+        padding: 25px;
+    }
+
+    header h1 {
+        font-size: 35px;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    header p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    nav {
+        background-color: white;
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #d63384;
+        font-weight: bold;
+        margin: 15px;
+    }
+
+    nav a:hover {
+        color: black;
+    }
+
+    .about {
+        background-color: white;
+        width: 85%;
+        margin: 30px auto;
+        padding: 25px;
+        border: 2px solid pink;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .about h2 {
+        color: #d63384;
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .about p {
+        font-size: 16px;
+        line-height: 1.8;
+        font-weight: 500;
+    }
+
+    .education {
+        background-color: #ffe4ec;
+        width: 85%;
+        margin: 30px auto;
+        padding: 25px;
+        border: 2px solid pink;
+        border-radius: 10px;
+    }
+
+    .education h2 {
+        color: #d63384;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    table {
+        width: 100%;
+        background-color: white;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        border: 1px solid #d63384;
+        padding: 12px;
+        text-align: center;
+    }
+
+    th {
+        background-color: #d63384;
+        color: white;
+        font-weight: bold;
+    }
+
+    .skills {
+        background-color: white;
+        width: 85%;
+        margin: 30px auto;
+        padding: 25px;
+        border: 2px solid pink;
+        border-radius: 10px;
+    }
+
+    .skills h2 {
+        color: #d63384;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .skills ul {
+        padding-left: 30px;
+        line-height: 2;
+        font-weight: 600;
+    }
+
+    .projects {
+        background-color: #ffe4ec;
+        width: 85%;
+        margin: 30px auto;
+        padding: 25px;
+        border: 2px solid pink;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .projects h2 {
+        color: #d63384;
+        margin-bottom: 15px;
+    }
+
+    .project-box {
+        background-color: white;
+        padding: 15px;
+        margin: 12px;
+        border: 1px solid pink;
+        border-radius: 8px;
+    }
+
+    .contact {
+        background-color: white;
+        width: 85%;
+        margin: 30px auto;
+        padding: 25px;
+        border: 2px solid pink;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .contact h2 {
+        color: #d63384;
+        margin-bottom: 15px;
+    }
+
+    .contact p {
+        line-height: 2;
+        font-weight: 500;
+    }
+
+    footer {
+        background-color: #d63384;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-weight: bold;
+    }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>My Personal Portfolio</h1>
+
+        <p>Welcome to My Personal Website</p>
+
+    </header>
+
+
+    <nav>
+
+        <a href="#about">About Me</a>
+
+        <a href="#education">Education</a>
+
+        <a href="#skills">Skills</a>
+
+        <a href="#projects">Projects</a>
+
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+
+    <section class="about" id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            Hello! My name is Your Name.
+
+            I am a university student.
+
+            I am studying BS Data Analytics.
+
+            I am interested in Computer Science,
+            Technology and Artificial Intelligence.
+
+            My goal is to improve my knowledge
+            and become a successful professional.
+        </p>
+
+    </section>
+
+
+    <section class="education" id="education">
+
+        <h2>My Education</h2>
+
+        <table>
+
+            <tr>
+                <th>Degree</th>
+                <th>Institute</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>Matric</td>
+                <td>Your School</td>
+                <td>Completed</td>
+            </tr>
+
+            <tr>
+                <td>ICS</td>
+                <td>Your College</td>
+                <td>Completed</td>
+            </tr>
+
+            <tr>
+                <td>BS Data Analytics</td>
+                <td>Your University</td>
+                <td>In Progress</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+
+    <section class="skills" id="skills">
+
+        <h2>My Skills</h2>
+
+        <ul>
+
+            <li>HTML</li>
+
+            <li>CSS</li>
+
+            <li>Python Programming</li>
+
+            <li>C Programming</li>
+
+            <li>Canva Designing</li>
+
+            <li>Artificial Intelligence</li>
+
+            <li>Content Writing</li>
+
+        </ul>
+
+    </section>
+
+
+    <section class="projects" id="projects">
+
+        <h2>My Projects</h2>
+
+        <div class="project-box">
+
+            <h3>Personal Portfolio Website</h3>
+
+            <p>Created using HTML and CSS.</p>
+
+        </div>
+
+        <div class="project-box">
+
+            <h3>Words of Wisdom</h3>
+
+            <p>A motivational and educational project.</p>
+
+        </div>
+
+        <div class="project-box">
+
+            <h3>AI Video Project</h3>
+
+            <p>Created using Artificial Intelligence tools.</p>
+
+        </div>
+
+    </section>
+
+
+    <section class="contact" id="contact">
+
+        <h2>Contact Me</h2>
+
+        <p>Email: your-email@example.com</p>
+
+        <p>Location: Pakistan</p>
+
+        <p>Field: Data Analytics</p>
+
+    </section>
+
+
+    <footer>
+
+        <p>© 2026 My Personal Portfolio</p>
+
+        <p>Designed with HTML and CSS</p>
+
+    </footer>
+
+</body>
+</html>
